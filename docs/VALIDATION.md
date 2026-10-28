@@ -18,7 +18,7 @@ The initial corpus check extracted the 66-page manual and produced 134 chunks fr
 
 During local verification on Windows, the application downloaded and indexed the manual, returned source-page links and generated answers through Groq. The Docker service reported readiness with index `e23a4517bf83a97c`. Firmware and first-layer queries returned cited answers; unsupported revenue and full-product-catalog questions returned insufficient evidence.
 
-These are manual smoke-test observations, not a scored answer-quality benchmark. Successful CI runs were also observed on GitHub. The uploaded source archive contains neither CI logs nor a complete live-answer evaluation dataset.
+These are manual smoke-test observations, not a scored answer-quality benchmark. Successful CI runs were also observed on GitHub. Live-answer quality has not been measured on a scored evaluation dataset.
 
 ## Repeatable checks
 

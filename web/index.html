@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Product Handbook Assistant</title><link rel="stylesheet" href="/static/styles.css"></head>
-<body><main><header><p class="eyebrow">DATA & AI · INTERVIEW DEMO</p><h1>Product Handbook Assistant</h1>
+<body><main><header><p class="eyebrow">PRODUCT DOCUMENTATION</p><h1>Product Handbook Assistant</h1>
 <p>Explore the Original Prusa MK4S / MK3.9S handbook with traceable answers.</p>
 <p id="status" class="status">Checking the index…</p></header>
 <section class="card"><label for="question">Ask about setup, maintenance, or troubleshooting</label>
 <textarea id="question" maxlength="1200" rows="3" placeholder="How do I update the printer firmware?"></textarea>
 <div class="examples"><button data-q="How do I update the printer firmware?">Firmware update</button><button data-q="The first layer is peeling off. What should I check?">First layer</button><button data-q="What is Prusa's revenue in 2025?">Unsupported question</button></div>
 <div class="actions"><button id="ask" class="primary">Answer with sources</button><button id="search">Search handbook only</button><span id="busy" role="status"></span></div>
-<p class="note">Single-question demo. Search stays local. Answering sends your question and retrieved passages to Groq.</p></section>
+<p class="note">Single-question interface. Search stays local. Answering sends your question and retrieved passages to Groq.</p></section>
 <section class="card" id="result" hidden><h2 id="result-title">Answer</h2><p id="answer"></p><p id="metrics" class="note"></p></section>
 <section id="evidence" hidden><h2>Retrieved evidence</h2><p class="note">Similarity ranks passages; it is not a confidence probability. Cited passages are marked.</p><div id="sources"></div></section>
-<footer>Independent learning project, not affiliated with Prusa Research. Manual v1.01, 26 September 2024.
+<footer>Independent project, not affiliated with Prusa Research. Manual v1.01, 26 September 2024.
 <a href="https://www.prusa3d.com/downloads/manual/prusa3d_manual_mk4s_mk39s_101_en.pdf" target="_blank" rel="noopener">Official handbook ↗</a>
 <p>Text-based retrieval. Diagrams are available in the source PDF. Check the cited pages before acting on an answer.</p></footer>
 </main><script src="/static/app.js" defer></script></body></html>
