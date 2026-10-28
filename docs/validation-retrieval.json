@@ -1,0 +1,154 @@
+{
+  "metric": "page_hit_rate@5",
+  "score": 1.0,
+  "note": "Small development set; not held-out answer quality or factuality.",
+  "index_version": "f2207ccf569f26a0",
+  "results": [
+    {
+      "question": "How do I update the printer firmware?",
+      "expected_pages": [
+        29
+      ],
+      "retrieved_pages": [
+        16,
+        29,
+        37,
+        64
+      ],
+      "hit": true,
+      "retrieval_ms": 8
+    },
+    {
+      "question": "How can I factory reset the printer?",
+      "expected_pages": [
+        30
+      ],
+      "retrieved_pages": [
+        8,
+        16,
+        29,
+        30,
+        64
+      ],
+      "hit": true,
+      "retrieval_ms": 6
+    },
+    {
+      "question": "The first layer is peeling off. What should I check?",
+      "expected_pages": [
+        26
+      ],
+      "retrieved_pages": [
+        24,
+        26,
+        46,
+        59,
+        65
+      ],
+      "hit": true,
+      "retrieval_ms": 6
+    },
+    {
+      "question": "How do I unload filament?",
+      "expected_pages": [
+        22
+      ],
+      "retrieved_pages": [
+        20,
+        22,
+        62
+      ],
+      "hit": true,
+      "retrieval_ms": 6
+    },
+    {
+      "question": "How do I load filament into the printer?",
+      "expected_pages": [
+        20,
+        21
+      ],
+      "retrieved_pages": [
+        20,
+        22,
+        23,
+        62
+      ],
+      "hit": true,
+      "retrieval_ms": 6
+    },
+    {
+      "question": "How do I connect the printer to Wi-Fi?",
+      "expected_pages": [
+        32,
+        33,
+        34
+      ],
+      "retrieved_pages": [
+        16,
+        23,
+        32,
+        33
+      ],
+      "hit": true,
+      "retrieval_ms": 6
+    },
+    {
+      "question": "What regular maintenance does the printer need?",
+      "expected_pages": [
+        57,
+        58
+      ],
+      "retrieved_pages": [
+        8,
+        9,
+        16,
+        57
+      ],
+      "hit": true,
+      "retrieval_ms": 6
+    },
+    {
+      "question": "What does the handbook say about printing PETG?",
+      "expected_pages": [
+        51
+      ],
+      "retrieved_pages": [
+        51,
+        58,
+        65
+      ],
+      "hit": true,
+      "retrieval_ms": 5
+    },
+    {
+      "question": "How do I run the selftest?",
+      "expected_pages": [
+        18,
+        19
+      ],
+      "retrieved_pages": [
+        18,
+        19,
+        26
+      ],
+      "hit": true,
+      "retrieval_ms": 6
+    },
+    {
+      "question": "How do I use PrusaSlicer to prepare a model?",
+      "expected_pages": [
+        41,
+        42,
+        43
+      ],
+      "retrieved_pages": [
+        38,
+        41,
+        42,
+        43
+      ],
+      "hit": true,
+      "retrieval_ms": 9
+    }
+  ]
+}

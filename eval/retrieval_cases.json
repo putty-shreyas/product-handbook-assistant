@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How do I update the printer firmware?",
+    "expected_pages": [
+      29
+    ]
+  },
+  {
+    "question": "How can I factory reset the printer?",
+    "expected_pages": [
+      30
+    ]
+  },
+  {
+    "question": "The first layer is peeling off. What should I check?",
+    "expected_pages": [
+      26
+    ]
+  },
+  {
+    "question": "How do I unload filament?",
+    "expected_pages": [
+      22
+    ]
+  },
+  {
+    "question": "How do I load filament into the printer?",
+    "expected_pages": [
+      20,
+      21
+    ]
+  },
+  {
+    "question": "How do I connect the printer to Wi-Fi?",
+    "expected_pages": [
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "question": "What regular maintenance does the printer need?",
+    "expected_pages": [
+      57,
+      58
+    ]
+  },
+  {
+    "question": "What does the handbook say about printing PETG?",
+    "expected_pages": [
+      51
+    ]
+  },
+  {
+    "question": "How do I run the selftest?",
+    "expected_pages": [
+      18,
+      19
+    ]
+  },
+  {
+    "question": "How do I use PrusaSlicer to prepare a model?",
+    "expected_pages": [
+      41,
+      42,
+      43
+    ]
+  }
+]

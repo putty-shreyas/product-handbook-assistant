@@ -1,0 +1,17 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+data/raw/*
+data/cache/*
+data/indexes/*
+!data/**/.gitkeep
+reports/*
+!reports/.gitkeep
+*.log
+groq_key.txt
+*.zip
